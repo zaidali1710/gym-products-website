@@ -1,0 +1,447 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7f50;
+    /* Highlight color on hover */
+}
+
+/* Heading styles */
+h1,
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Common content styles for pages */
+.page-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5050;
+    /* Highlight color on hover */
+}
+
+/* Home Page Styles */
+.home-page {
+    background-image: width=30px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    text-align: center;
+}
+
+.home-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+    /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .home-page {
+        padding: 30px;
+    }
+
+    .home-page h1 {
+        font-size: 2rem;
+    }
+
+    .home-page p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust styles for smaller screens as needed */
+}
+
+/* Product Page Styles */
+.product-page {
+
+    /* Add specific product page styles here */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #ff5050;
+        /* Highlight color on hover */
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .product {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .product-image {
+        flex: 0 0 200px;
+        margin-right: 20px;
+    }
+
+    .product-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product-details {
+        flex: 1;
+    }
+
+    .product h2 {
+        color: #333;
+        margin-top: 0;
+    }
+
+    .product-description {
+        margin-bottom: 10px;
+    }
+
+    .product-price {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .product-link {
+        display: inline-block;
+        color: #fff;
+        background-color: #333;
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .product-link:hover {
+        background-color: #555;
+    }
+
+    @media (max-width: 600px) {
+        .product {
+            flex-direction: column;
+        }
+
+        .product-image {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Reviews Page Styles */
+.about-us page {
+    /* Add specific reviews page styles here */
+    /* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header and navigation styles (customize as needed) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7f50; /* Highlight color on hover */
+}
+
+/* About section styles */
+.about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #fe4524; /* Darker shade on hover */
+}
+
+/* Footer styles (customize as needed) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Responsive Design (customize breakpoints as needed) */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+}
+
+/* Contact Us Page Styles */
+.contact-page {
+    /* Add specific contact page styles here */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+}
